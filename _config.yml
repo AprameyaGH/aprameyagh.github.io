@@ -7,3 +7,6 @@ collections:
   expository_posts:
     output: true
     permalink: /expository/:name/
+  stuff:
+    output: true
+    permalink: /stuff/:name/
