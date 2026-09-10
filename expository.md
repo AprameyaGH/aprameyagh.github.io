@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Stuff
-permalink: /stuff/
+title: Expository
+permalink: /expository/
 ---
 
 # Stuff

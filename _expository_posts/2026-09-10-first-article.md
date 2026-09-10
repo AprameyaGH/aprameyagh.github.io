@@ -29,11 +29,11 @@ $$
 
 <span class="proof-title">Proof.</span>
 
-**Step 1. Decide your quantity.** One first sees that 
+(Step 1. Decide your quantity.) One first sees that 
 $$P:=\partial_t \log u- |\nabla \log u|^2=\frac{\Delta u}{u}-\frac{|\nabla u|^2}{u^2}=\Delta \log u$$
 The last equality is a quick computation: 
 $$\nabla^2 \log u=\nabla (\frac{\nabla u}{u})=\frac{1}{u}\nabla^2 u-\frac{\nabla u\otimes \nabla u}{u^2}$$
-**Step 2. Compute its variation and get a favorable inequality.** The idea of making this transformation is that one can now compute its variation and we want to get an equation as $\partial_t P=\Delta P+$some other terms possibly involving $P$. Because time and space derivatives commute, we have 
+(Step 2. Compute its variation and get a favorable inequality.) The idea of making this transformation is that one can now compute its variation and we want to get an equation as $\partial_t P=\Delta P+$some other terms possibly involving $P$. Because time and space derivatives commute, we have 
 $$\frac{\partial}{\partial t}(\Delta \log u) =\Delta\left(\frac{\partial}{\partial t} \log u\right)=\Delta(\frac{\Delta u}{u})=\Delta\left(\Delta \log u+|\nabla \log u|^2\right) $$
 To take care of the second term, we need to commute $\Delta$ and $\nabla$. This is the so called "Bochner formulae" which follows form commutation of derivatives.
 $$\Delta(\nabla_i f)=\nabla_i (\Delta f)+R_{i}^j\nabla_j f$$
@@ -47,7 +47,7 @@ Returning to $P$, we have
 $$\partial_t P=\Delta P+2|\nabla^2 \log u|^2+2\langle \nabla P,\nabla \log u\rangle +2\operatorname{Ric}(\nabla \log u,\nabla \log u)$$
 We can drop the $\operatorname{Ric}$ term and use Cauchy-Schwars on the square term and we will still be going in the right direction to obtain 
 $$\partial_t P\geq \Delta P+2\langle \nabla P,\nabla \log u\rangle +\frac{2}{n}P^2$$
-**Step 3. Apply the WEAK Maximum principle.** We are in the right position to apply maximum principle! The final step 
+(Step 3. Apply the WEAK Maximum principle.) We are in the right position to apply maximum principle! The final step 
 $$\begin{aligned}
 \partial_t (P+\frac{n}{2t})&\geq \Delta (P+\frac{n}{2t})+2\langle \nabla (P+\frac{n}{2t}),\nabla \log u\rangle \\
 &+\frac{2}{n}(P+\frac{n}{2t})^2-\frac{2}{t}(P+\frac{n}{2t})
@@ -98,12 +98,12 @@ $$
 $$
 where $C$ is a positive constant depending only on $n$ and $\alpha$. 
 </div>
-For a different proof than the one given below, see Qing Han's book, or Reto Müller's book.
+For a different proof than the one given below, see Q. Han's book, or R. Müller's book.
 <div class="proof">
 
 <span class="proof-title">Proof.</span>
 
-**Step 1. Decide your quantity.** Firstly we may assume $u$ is continuous on $B_1\times [0,1]$ for otherwise, carry out the proof on $B_1\times [\varepsilon,1]$ and take $\varepsilon\to 0$. Recall the identity
+(Step 1. Decide your quantity.) Firstly we may assume $u$ is continuous on $B_1\times [0,1]$ for otherwise, carry out the proof on $B_1\times [\varepsilon,1]$ and take $\varepsilon\to 0$. Recall the identity
 $$\Delta \log u=\frac{\Delta u}{u}-|\nabla \log u|^2$$
 From here we derive that the Harnack quantity is: 
 $$\partial_t v-|\nabla v|^2=\Delta v$$
@@ -148,7 +148,7 @@ $$\begin{aligned}
 It is still not very clear whether we are ready to apply maximum principle simply because there are many terms with mixed sign. Remember we need to bring more positive terms on the right hand side. We can arrive at 
 $$\begin{aligned}
 \partial_t H&\geq \Delta H+2\langle\nabla v,\nabla H\rangle+\frac{H}{t}-2H\frac{\Delta \eta }{\eta}\\
-&-\frac{2H}{t}(|\nabla \eta|^2 \frac{1}{\eta^2}+2\frac{t}{\eta} \langle \nabla v,\nabla \eta\rangle)\qquad \qquad (\text{took }2/t \text{ out})\\ 
+&-\frac{2H}{t}(|\nabla \eta|^2 \frac{1}{\eta^2}+2\frac{t}{\eta} \langle \nabla v,\nabla \eta\rangle)\\ 
 &+\eta^2 t(\frac{2\alpha}{n} w^2)
 \end{aligned}$$
 One now sees after a long computation that the above inequality is equivalnet to the following 
@@ -163,7 +163,7 @@ One now sees after a long computation that the above inequality is equivalnet to
 \end{equation}
 Notice that we have the right signs for everything!
 
-**Step 2. Carry out the maximum principle.** There exists some large $C_{\alpha,n}$ such that 
+(Step 2. Carry out the maximum principle.) There exists some large $C_{\alpha,n}$ such that 
 $$\frac{n|\nabla \eta|^2}{2\alpha(1-\alpha)}\leq C_{\alpha,n}$$
 Thus we have on $B_{1/2}\times (0,T]$ where $H$ is nonpositive,
 $$\begin{aligned}
@@ -384,10 +384,10 @@ This first appeared in Li-Yau's paper and is more general than the Li-Yau Harnac
     Chow, Bennett, and Dan Knopf. "The Ricci flow: an introduction." *Mathematical surveys and monographs* 110 (2011).
   </li>
   <li id="ref-Reto">
-    Müller, Reto. *Differential Harnack inequalities and the Ricci flow*. Vol. 5. European Mathematical Society, 2006
+    Müller, Reto. Differential Harnack inequalities and the Ricci flow. Vol. 5. European Mathematical Society, 2006
   </li>
   <li id="ref-HRF">
-    Chow, Bennett, Peng Lu, and Lei Ni. *Hamilton’s Ricci flow*. Vol. 77. American Mathematical Society, Science Press, 2023
+    Chow, Bennett, Peng Lu, and Lei Ni. Hamilton’s Ricci flow. Vol. 77. American Mathematical Society, Science Press, 2023
   </li>
   <li id="ref-LiYau">
     Li, Peter, and Shing Tung Yau. "*On the parabolic kernel of the Schrödinger operator.*" (1986): 153-201.
@@ -396,6 +396,6 @@ This first appeared in Li-Yau's paper and is more general than the Li-Yau Harnac
     Hamilton, Richard S. "Matrix Harnack estimate for the heat equation." *Communications in analysis and geometry* 1.1 (1993): 113-126
   </li>
   <li id="ref-QHan">
-    Han, Qing. *A basic course in partial differential equations*. Vol. 120. American Mathematical Soc., 2011.
+    Han, Qing. A basic course in partial differential equations. Vol. 120. American Mathematical Soc., 2011.
   </li>
 </ol>
