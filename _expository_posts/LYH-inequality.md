@@ -381,7 +381,7 @@ This first appeared in Li-Yau's paper and is more general than the Li-Yau Harnac
 
 <ol>
   <li id="ref-B0">
-    Chow, Bennett, and Dan Knopf. "The Ricci flow: an introduction." *Mathematical surveys and monographs* 110 (2011).
+    Chow, Bennett, and Dan Knopf. "The Ricci flow: an introduction." Mathematical surveys and monographs 110 (2011).
   </li>
   <li id="ref-Reto">
     Müller, Reto. Differential Harnack inequalities and the Ricci flow. Vol. 5. European Mathematical Society, 2006
@@ -390,7 +390,7 @@ This first appeared in Li-Yau's paper and is more general than the Li-Yau Harnac
     Chow, Bennett, Peng Lu, and Lei Ni. Hamilton’s Ricci flow. Vol. 77. American Mathematical Society, Science Press, 2023
   </li>
   <li id="ref-LiYau">
-    Li, Peter, and Shing Tung Yau. "*On the parabolic kernel of the Schrödinger operator.*" (1986): 153-201.
+    Li, Peter, and Shing Tung Yau. "On the parabolic kernel of the Schrödinger operator." (1986): 153-201.
   </li>
   <li id="ref-Ham">
     Hamilton, Richard S. "Matrix Harnack estimate for the heat equation." *Communications in analysis and geometry* 1.1 (1993): 113-126

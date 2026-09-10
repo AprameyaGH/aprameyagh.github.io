@@ -4,9 +4,9 @@ title: Expository
 permalink: /expository/
 ---
 
-# Expository articles
+# Expository
 
-Here you can find some of my writings...
+Here you can find some of my writings which are more expository in nature, or updates about my research ...
 
 {% for post in site.expository_posts %}
   <article>
