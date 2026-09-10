@@ -14,8 +14,14 @@
 <script>
   window.MathJax = {
     tex: {
-      inlineMath: [['\\(', '\\)']],
-      displayMath: [['\\[', '\\]']]
+      inlineMath: [
+        ['\\(', '\\)'],
+        ['$', '$']
+      ],
+      displayMath: [
+        ['\\[', '\\]'],
+        ['$$', '$$']
+      ]
     },
     svg: {
       fontCache: 'global'
@@ -38,7 +44,7 @@
       <a href="{{ "/" | relative_url }}">Home</a>
         <a href="{{ "/research/" | relative_url }}">Research</a>
         <a href="{{ "/seminar/" | relative_url }}">∇ Seminar</a>
-        <a href="{{ "/blog/" | relative_url }}">Other stuff</a>
+        <a href="{{ "/stuff/" | relative_url }}">Stuff</a>
     </nav>
   </header>
 
