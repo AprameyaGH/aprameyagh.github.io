@@ -95,6 +95,14 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+
 .profile-photo {
   width: 180px;
   height: 180px;
@@ -102,4 +110,73 @@ footer {
   border-radius: 50%;
   display: block;
   margin: 1.5rem 0;
+}
+
+
+
+
+.theorem,
+.lemma,
+.proposition,
+.corollary,
+.definition,
+.remark {
+  margin: 2rem 0;
+  padding: 1rem 1.4rem;
+  border-left: 5px solid #245b8f;
+  border-radius: 6px;
+  background: #eef5fb;
+}
+
+.theorem::before {
+  content: "Theorem";
+}
+
+.lemma::before {
+  content: "Lemma";
+}
+
+.proposition::before {
+  content: "Proposition";
+}
+
+.corollary::before {
+  content: "Corollary";
+}
+
+.definition::before {
+  content: "Definition";
+}
+
+.remark::before {
+  content: "Remark";
+}
+
+.theorem::before,
+.lemma::before,
+.proposition::before,
+.corollary::before,
+.definition::before,
+.remark::before {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #174a7e;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.proof {
+  margin: 1.5rem 0 2rem;
+  padding-left: 1.4rem;
+  border-left: 3px solid #999;
+}
+
+.proof-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.qed {
+  float: right;
+  font-size: 1.2rem;
 }
