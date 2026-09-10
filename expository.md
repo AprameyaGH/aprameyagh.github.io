@@ -4,11 +4,11 @@ title: Expository
 permalink: /expository/
 ---
 
-# Stuff
+# Expository articles
 
 Here you can find some of my writings...
 
-{% for post in site.posts %}
+{% for post in site.expository_posts %}
   <article>
     <h2>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>

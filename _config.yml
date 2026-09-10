@@ -3,4 +3,4 @@ description: Mathematical writing, research, and ideas
 author: Aprameya Girish Hebbar
 theme: minima
 markdown: kramdown
-permalink: /expository/:year/:month/:day/:title/
+permalink: /expository/:year/:month/:day/:title/ 
