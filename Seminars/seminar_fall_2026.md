@@ -19,8 +19,11 @@ Those who wish to receive e-mails for latest information of the seminar may subs
 ### Seminar Schedule
 
 **Date:** 
+
 **Speaker:** 
+
 **Title:** 
+
 **Abstract:** 
 
 ---

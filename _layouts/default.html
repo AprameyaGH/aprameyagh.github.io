@@ -10,16 +10,35 @@
   </title>
 
   <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['\\(', '\\)']],
+      displayMath: [['\\[', '\\]']]
+    },
+    svg: {
+      fontCache: 'global'
+    }
+  };
+</script>
+
+<script
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js">
+</script>
+
+
+
 </head>
 
 <body>
   <header>
     <nav>
       <a href="{{ "/" | relative_url }}">Home</a>
-      <a href="{{ "/blog/" | relative_url }}">Blog</a>
-      <a href="{{ "/about/" | relative_url }}">About</a>
         <a href="{{ "/research/" | relative_url }}">Research</a>
-        <a href="{{ "/seminar/" | relative_url }}">Seminar</a>
+        <a href="{{ "/seminar/" | relative_url }}">∇ Seminar</a>
+        <a href="{{ "/blog/" | relative_url }}">Other stuff</a>
     </nav>
   </header>
 

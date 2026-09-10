@@ -4,7 +4,9 @@ title: Blog
 permalink: /blog/
 ---
 
-# Blog
+# Stuff
+
+Here you can find some of my writings...
 
 {% for post in site.posts %}
   <article>
