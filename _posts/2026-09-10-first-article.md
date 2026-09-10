@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An Example in LaTeX"
+title: "The Li-Yau-Hamilton Harnack inequality"
 date: 2026-09-10
 ---
 The Harnack inequality, in its classical form, provides a way to compare the values of the positive solution at different points. In their 1986 seminal paper, Peter Li and Shing-Tung Yau introduced a revolutionary differential form of the Harnack inequality for the heat equation on Riemannian manifolds, now known as the Li-Yau Harnack inequality.
@@ -14,7 +14,7 @@ In this expository article, we explore the Li-Yau Harnack inequality in three in
 We will begin by the easiest case: on a closed manifold, the reason being that we don't have to worry about the boundary. The Li-Yau Harnack inequality takes the following form. 
 <div class="theorem" id="theorem-1">
 
-Let \(M^n\) be a closed (i.e. compact without boundary) \(n\)-dimensional Riemannian manifold with non-negative Ricci curvature, i.e. \(\operatorname{Ric}_g \geq 0\). Let \(u: M \times[0, \infty) \rightarrow\) \([0, \infty)\) be a non-negative smooth solution to the heat equation:
+Let $M^n$ be a closed (i.e. compact without boundary) \(n\)-dimensional Riemannian manifold with non-negative Ricci curvature, i.e. \(\operatorname{Ric}_g \geq 0\). Let \(u: M \times[0, \infty) \rightarrow\) \([0, \infty)\) be a non-negative smooth solution to the heat equation:
 $$
 \partial_t u(x, t)=\Delta_g u(x,t), \quad x \in M, t \in[0, T] .
 $$
@@ -33,7 +33,7 @@ $$
 $$P:=\partial_t \log u- |\nabla \log u|^2=\frac{\Delta u}{u}-\frac{|\nabla u|^2}{u^2}=\Delta \log u$$
 The last equality is a quick computation: 
 $$\nabla^2 \log u=\nabla (\frac{\nabla u}{u})=\frac{1}{u}\nabla^2 u-\frac{\nabla u\otimes \nabla u}{u^2}$$
-**Step 2. Compute its variation and get a favorable inequality.** The idea of making this transformation is that one can now compute its variation and we want to get an equation as \(\partial_t P=\Delta P+\)some other terms possibly involving \(P\). Because time and space derivatives commute, we have 
+**Step 2. Compute its variation and get a favorable inequality.** The idea of making this transformation is that one can now compute its variation and we want to get an equation as \(\partial_t P=\Delta P+\)some other terms possibly involving $P$. Because time and space derivatives commute, we have 
 $$\frac{\partial}{\partial t}(\Delta \log u) =\Delta\left(\frac{\partial}{\partial t} \log u\right)=\Delta(\frac{\Delta u}{u})=\Delta\left(\Delta \log u+|\nabla \log u|^2\right) $$
 To take care of the second term, we need to commute \(\Delta\) and \(\nabla\). This is the so called "Bochner formulae" which follows form commutation of derivatives.
 $$\Delta(\nabla_i f)=\nabla_i (\Delta f)+R_{i}^j\nabla_j f$$
@@ -211,7 +211,7 @@ We get after a look at previous proof that
 $$\partial_t S=\Delta S+2\alpha |\nabla^2 v|^2+2\langle \nabla v,\nabla S\rangle+2\alpha \operatorname{Ric}(\nabla v,\nabla v)$$
 and 
 \begin{equation}
-\tag{\dagger}\label{HarVar}
+\tag{\dagger}\label{HarVar-2}
 \begin{aligned}
 \partial_t H&\geq \Delta H+2\langle\nabla v,\nabla H\rangle\\
 &-\frac{2H}{\eta^2}\left|\sqrt{\frac{2\alpha(1-\alpha)}{n}}\eta \nabla v+\frac{1}{\sqrt{\frac{2\alpha(1-\alpha)}{n}}}\nabla \eta\right|^2\\
@@ -290,7 +290,7 @@ $$\frac{u(x_2,t_2)}{u(x_1,t_1)}\geq \frac{t_1^{n/2}}{t_2^{n/2}}e^{-\frac{1}{4(t_
 
 Recall that \(v=\log u\) satisfies 
 $$\partial_t v- |\nabla v|^2+\frac{n}{2 t}\geq 0$$
-Let us consider a path \(\g:[t_1,t_2]\to M,\gamma(t_1)=x_1,\gamma(t_2)=x_2\). We integrate: 
+Let us consider a path \(\gamma:[t_1,t_2]\to M,\gamma(t_1)=x_1,\gamma(t_2)=x_2\). We integrate: 
 $$\begin{aligned}
 \log(\frac{u(x_1,t_1)}{u(x_2,t_2)})&=\int_{t_1}^{t_2}\partial_s [\log(u(\gamma(s),s))]\,ds\\
 &=\int_{t_1}^{t_2}\frac{(\partial_t u)(\gamma(s),s)+\nabla u(\gamma(s),s)\cdot \gamma'(s)}{u(\gamma(s),s)}\\
@@ -302,7 +302,7 @@ where we have written \(v(s)=v(\gamma(s),s)\). We have
 $$\frac{u(x_2,t_2)}{u(x_1,t_1)}\geq \frac{t_1^{n/2}}{t_2^{n/2}}e^{-A}$$
 where 
 $$A(x_1,x_2,t_1,t_2):=\inf \frac{1}{4}\int_{t_1}^{t_2}|\gamma'(s)|^2$$
-where the infimum is taken over all paths \(\g:[t_1,t_2]\to M\), with \(\gamma(t_1)=x_1,\gamma(t_2)=x_2\). We need to bound \(A\) by above and that can be done by simply taking \(\sigma:[0,b]\to M\) to be the unit speed geodesic and taking $$\gamma(s):=\sigma(\varphi(t))\qquad \varphi(t)=\frac{b}{t_2-t_1}(t-t_1)$$
+where the infimum is taken over all paths \(\gamma:[t_1,t_2]\to M\), with \(\gamma(t_1)=x_1,\gamma(t_2)=x_2\). We need to bound \(A\) by above and that can be done by simply taking \(\sigma:[0,b]\to M\) to be the unit speed geodesic and taking $$\gamma(s):=\sigma(\varphi(t))\qquad \varphi(t)=\frac{b}{t_2-t_1}(t-t_1)$$
 Then we get 
 $$A\leq \frac{1}{4}\int_{0}^{t_2-t_1} \frac{b^2}{(t_2-t_1)^2}\,ds=\frac{1}{4(t_2-t_1)}d_g(x_1,x_2)$$
 This yields us the result. 
@@ -353,7 +353,7 @@ We record the special case.
 <strong>Classical Harnack.</strong> 
 Suppose \(u \in C^{2,1}\left(B_1 \times(0,1]\right)\) satisfies
 $$
-u_t-\Delta u=0, u \geq 0 \quad \text { in } B_1 \times(0,1]
+\partial_t u-\Delta u=0, u \geq 0 \quad \text { in } B_1 \times(0,1]
 $$
 Then for any \(\left(x_1, t_1\right),\left(x_2, t_2\right) \in B_{1 / 2} \times(0,1]\) with \(t_2>t_1\),
 $$
@@ -373,7 +373,7 @@ $$
 then the following inequality holds:
 $$\nabla^2 u-\frac{\nabla u\otimes \nabla u}{u}+\frac{u}{2t}g\geq 0$$
 </div>
-This first appeared in Li-Yau's. paper and is more general than the Li-Yau Harnack inequality in the sense that if we trace this, we obtain the Li-yau Harnack inequality. For a similar inequality in the setting of Ricci flow, see the excellent book by B. Chow and P. Lu. 
+This first appeared in Li-Yau's paper and is more general than the Li-Yau Harnack inequality in the sense that if we trace this, we obtain the Li-yau Harnack inequality. For a similar inequality in the setting of Ricci flow, see the excellent book by B. Chow and P. Lu. 
 
 
 ## References
