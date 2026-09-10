@@ -9,7 +9,7 @@ Welcome to my webpage!
 
 I am Aprameya, a fourth-year mathematics graduate student at Rutgers The State University of New Jersey, New Brunswick, NJ.
 
-I am broadly interested in Geometric analysis. My current interests lie in Geometric Flows. My adviser is Dr. Natasa Sesum. 
+I am broadly interested in Geometric analysis. My current interests lie in [Geometric Flows](https://en.wikipedia.org/wiki/Ricci_flow). My adviser is [Dr. Natasa Sesum](https://sites.math.rutgers.edu/~natasas/). 
 
 You can find my brief CV [here](/assets/files/Aprameya_CV.pdf). 
 
