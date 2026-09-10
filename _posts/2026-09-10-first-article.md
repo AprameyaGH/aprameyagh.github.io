@@ -64,7 +64,7 @@ which is a contradiction. The theorem is proved.
 
 
 
-The inequality hints that a similar inequality is possible for Ricci flow on a closed surface. Let \((M^2,g(t))\) be a solution to the Ricci flow on a surface with \(R>0\), i.e. 
+The inequality hints that a similar inequality is possible for Ricci flow on a closed surface. Let $(M^2,g(t))$ be a solution to the Ricci flow on a surface with \(R>0\), i.e. 
 $$\partial_t g=-Rg$$
 Then one computes for the scalar curvature \(R_g\) that 
 $$\partial_t R=\Delta R+R^2 $$
