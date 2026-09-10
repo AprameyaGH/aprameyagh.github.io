@@ -1,25 +1,20 @@
 ---
 layout: default
 title: Nabla Seminar
-permalink: /nabla/
+permalink: /seminar/
 ---
 
-# Blog
 
-∇ Seminar (read as "nabla seminar" or "Grad seminar") is a student run Analysis and Geometry seminar at the Department of Mathematics, Rutgers University. The seminar features various expository and research talks from students meeting every Monday 4-5 PM at Graduate Student Lounge, Math Dept Hill 701, Rutgers University. 
+# ∇ Seminar - Graduate Student Analysis Seminar @ Rutgers University
 
-The Fall 2026 edition of the ∇ Seminar is being organized by myself, Qi Ma and Anupam Nayak. 
+∇ Seminar (read as "nabla seminar" or "Grad seminar") is a student run Analysis and Geometry seminar at the Department of Mathematics, Rutgers University. The seminar features various expository and research talks from students meeting every Friday 4-5 PM at Graduate Student Lounge, Math Dept Hill 701, Rutgers University.
 
-You may find the titles and abstracts for the past and upcoming talks here. 
+The ∇ Seminar is being organized by Aprameya Girish Hebbar, Qi Ma and Anupam Nayak (and previously Larry Frolov).
 
-Those who wish to receive e-mails for latest information of the seminar may subscribe to our mail-list by sending “Subscribe” to grad_analysis-join@email.rutgers.edu or you can email me at ah1531[at]math[dot]rutgers[dot]edu. 
+For titles and abstracts for this seminar, see below: 
+- [Spring 2025](/nabla_spring_2025/).
+- [Fall 2025](/nabla_fall_2025/).
+- [Spring 2026](/nabla_spring_2026/).
+- [Fall 2026](/nabla_fall_2026/).
 
-
-Date: Sept 14th, 2026 
-
-Speaker: Samanthak Thiagarajan
-
-Title: TBA
-
-Abstract: TBA
-
+ 

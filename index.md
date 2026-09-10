@@ -5,11 +5,6 @@ title: Home
 
 # Aprameya Girish Hebbar
 
-<img
-  src="/assets/images/profile.heic"
-  alt="A photo of Your Name"
-  class="profile-photo">
-
 Welcome to my webpage!
 
 I am Aprameya, a fourth-year mathematics graduate student at Rutgers The State University of New Jersey, New Brunswick, NJ.
@@ -23,4 +18,9 @@ Email: ah1531[at]math[dot]rutgers[dot]edu
 I did my undergraduate studies at Indian Statistical Institute, Bangalore, India.
 
 This site contains my mathematical writing, notes, articles, and other stuff. 
+
+<img
+  src="{{ "/assets/images/profile.png" | relative_url }}"
+  alt="A photo of Aprameya Girish Hebbar"
+  class="profile-photo">
 
