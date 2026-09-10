@@ -5,29 +5,25 @@ date: 2026-09-10
 ---
 
 # An Example in LaTeX
+The area of a circle with radius $r$ is
 
-The area of a circle with radius \(r\) is
-
-\[
+$$
 A = \pi r^2.
-\]
+$$
 
-We can also write a more complicated equation:
+The curve-shortening flow equation is
 
-\[
-\frac{d}{dt}\gamma(s,t)
+$$
+\frac{\partial \gamma}{\partial t}
 =
-\frac{\partial^2 \gamma}{\partial s^2}(s,t).
-\]
+\frac{\partial^2 \gamma}{\partial s^2}.
+$$
 
-This is the curve-shortening flow equation.
+For a multiline calculation, use
 
-For a multiline calculation, use:
-
-\[
+$$
 \begin{aligned}
-f(x)
-&= (x+1)^2 \\
-&= x^2 + 2x + 1.
+f(x) &= (x+1)^2 \\
+     &= x^2 + 2x + 1.
 \end{aligned}
-\]
+$$
