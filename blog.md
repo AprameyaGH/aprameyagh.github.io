@@ -1,11 +1,3 @@
-
-Replace the placeholder information.
-
-## 7. Create a Blog page
-
-Create `blog.md`:
-
-```markdown
 ---
 layout: default
 title: Blog
