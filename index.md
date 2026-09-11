@@ -15,7 +15,7 @@ You can find my brief CV [here](/assets/files/Aprameya_CV.pdf). You can find mor
 
 This site mainly contains my mathematical writing, notes, articles, and some other stuff. 
 
-As LLMs become more powerful, mathematics may begin to feel increasingly mechanized. To preserve the playful side of math, I write [Expository articles](expository.md) about math ideas I find fascinating, with lots of room for intuition, questioning, and the process of understanding. These articles are written by me, without LLM assistance, including when they explore topics which may be developed with the assistance of AI. 
+As LLMs become more powerful, mathematics may begin to feel a lot more mechanized. To preserve the playful and exploratory side of math, I write [Expository articles](expository.md) about math ideas I find fascinating, with lots of room for intuition, questioning, and the process of understanding. These articles are written by me, without LLM assistance, including when they explore topics which may be developed with the assistance of AI. 
 
 <img
   src="{{ "/assets/images/profile.png" | relative_url }}"
