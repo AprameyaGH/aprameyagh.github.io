@@ -47,9 +47,11 @@ $$
 g_{\Sigma}=4\frac{d x^{2}+d y^{2}}{1+x^{2}+y^{2}}=4\frac{d r^{2}+r^{2} d \theta^{2}}{1+r^{2}}
 $$
 It turns out by a simple computation that this is a [complete](https://link.springer.com/book/10.1007/978-3-319-91755-9) nonflat steady soliton. Note that the metric is [rotationally symmetric](https://arxiv.org/abs/0901.2374) in the sense that it is invariant under $O(2)$-action on the manifold. We can write this metric in a more suitable form by putting
+<div class="math-display" markdown="0">
 $$
 s=2\int_{-\infty}^{r} \sqrt{\frac{1}{1+r'^{2}}} d r^{\prime}=2\operatorname{arcsinh} r=2\log \left(r+\sqrt{1+r^{2}}\right)
 $$
+</div>
 and after a computation, get 
 $$
 g_{\Sigma}=d s^{2}+\varphi(s)^2 d \theta^{2}\qquad \varphi:=4\tanh ^{2} (\frac{s}{2}) 
@@ -67,7 +69,8 @@ $$(\mathbb{R}^2,g_\Sigma,x_k)\to ( \mathbb{R}\times S^1,ds^2+4d\theta^2,x_\infty
 This is a good place to define what is noncollapsed-ness in the question statement above. Perelman observed that Ricci flow on compact manifolds have a very important property. 
 
 <div class="definition" id="theorem-5">
-([Perelman](https://arxiv.org/abs/math/0211159)) Let $\left(\hat{\mathcal{M}}^n, \hat{g}\right)$ be a complete Riemannian manifold. Given $\rho \in(0, \infty]$ and $\kappa>0$, we say that the metric $\hat{g}$ is $\kappa$-noncollapsed below the scale $\rho$ if for any metric ball $B(x, r)$ with $r<\rho$ satisfying $|R(y)|\leq r^{-2}$ for all $y \in B(x, r)$, we have
+(<a href="https://arxiv.org/abs/math/0211159">Perelman</a>)
+ Let $\left(\hat{\mathcal{M}}^n, \hat{g}\right)$ be a complete Riemannian manifold. Given $\rho \in(0, \infty]$ and $\kappa>0$, we say that the metric $\hat{g}$ is $\kappa$-noncollapsed below the scale $\rho$ if for any metric ball $B(x, r)$ with $r<\rho$ satisfying $|R(y)|\leq r^{-2}$ for all $y \in B(x, r)$, we have
 <div class="math-display" markdown="0">
 $$
 \frac{\operatorname{Vol} B(x, r)}{r^n} \geq \kappa
