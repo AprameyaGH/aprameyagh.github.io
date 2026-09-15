@@ -3,10 +3,6 @@ description: Mathematical writing, research, and ideas
 author: Name
 theme: minima
 markdown: kramdown
-
-kramdown:
-  parse_block_html: true
-
 collections:
   expository_posts:
     output: true
