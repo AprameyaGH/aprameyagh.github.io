@@ -1,14 +1,20 @@
-title: Aprameya Girish Hebbar
+title: Name
 description: Mathematical writing, research, and ideas
-author: Aprameya Girish Hebbar
+author: Name
 theme: minima
 markdown: kramdown
+
 kramdown:
   parse_block_html: true
+  math_engine: null
+
 collections:
   expository_posts:
     output: true
     permalink: /expository/:name/
+
   stuff:
     output: true
     permalink: /stuff/:name/
+
+    
