@@ -8,20 +8,13 @@ These are my notes for my talk at Rutgers University Geometric Analysis seminar,
 
 Everything in this talk is joint work with my adviser, Natasa Sesum, which can be found [here](https://arxiv.org/pdf/2603.21397). The main motivating question for this talk is the following. 
 
-<div class="theorem" id="theorem-1">
-
 **Question**. Does the [scalar curvature](https://arxiv.org/abs/gr-qc/0401099) vanish at infinity on a [$\kappa$-noncollapsed](https://warwick.ac.uk/fac/sci/maths/people/staff/peter_topping/rfnotes/) $4$D steady soliton with $\operatorname{Rm}>0$? 
-
-</div>
 
 Although there are several mathematical reasons why this question is interesting, some of which we will discuss in the talk, I would like to recall an anecdote on why I started working on it. My adviser gave me two problems last summer and one of them was this. She warned me that this might be a difficult problem and advised me not to work on it right away. But somehow I felt curious about this one, one reason is how easy it is to state this! Within a month, I was hooked onto this problem and I thought about this for a long time that culminated in the paper. Today I hope to show why steady solitons are interesting objects to study. 
 
-<div class="theorem" id="theorem-2">
 
 To begin with, we will define steady solitons. Let $(M^4,g)$ be a [Riemannian manifold](https://arxiv.org/abs/1303.5390). By this we mean at each point $p\in M$, $g_p$ is an [inner product](https://link.springer.com/chapter/10.1007/978-3-031-41026-0_6) on [$T_p M$](https://arxiv.org/abs/1204.2191) and $p\mapsto g_p$ is smooth over $M$. Using $g$, one can define the Riemann $\operatorname{Rm}$, Ricci $\operatorname{Ric}$, and scalar curvature $R$. We say $(M^4,g,f)$ is a [steady soliton](https://arxiv.org/abs/0908.2006) if $f:M\to \mathbb{R}$ is smooth and on $M$,  $$\operatorname{Ric}+\nabla^2 f=0.$$
 The function $f$ is called the potential. Adding a constant to $f$, or scaling the metric, or composing by an isometry, doesn't change the equation. 
-
-</div>
 
 These generalize Ricci flat manifolds, in the sense that Ricci flat manifolds are trivial steady solitons. But there is nothing trivial about [$4$D Ricci flat manifolds](https://arxiv.org/abs/2606.10443)! In particular, the flat $\mathbb{R}^4$ is a steady soliton with the Euclidean metric and this is called the Gaussian steady soliton. 
 
@@ -70,8 +63,7 @@ $$(\mathbb{R}^2,g_\Sigma,x_k)\to ( \mathbb{R}\times S^1,ds^2+4d\theta^2,x_\infty
 This is a good place to define what is noncollapsed-ness in the question statement above. Perelman observed that Ricci flow on compact manifolds have a very important property. 
 
 <div class="definition" id="theorem-5">
-
-**Definition.** ([Perelman](https://arxiv.org/abs/math/0211159)) Let $\left(\hat{\mathcal{M}}^n, \hat{g}\right)$ be a complete Riemannian manifold. Given $\rho \in(0, \infty]$ and $\kappa>0$, we say that the metric $\hat{g}$ is $\kappa$-noncollapsed below the scale $\rho$ if for any metric ball $B(x, r)$ with $r<\rho$ satisfying $|R(y)|\leq r^{-2}$ for all $y \in B(x, r)$, we have
+([Perelman](https://arxiv.org/abs/math/0211159)) Let $\left(\hat{\mathcal{M}}^n, \hat{g}\right)$ be a complete Riemannian manifold. Given $\rho \in(0, \infty]$ and $\kappa>0$, we say that the metric $\hat{g}$ is $\kappa$-noncollapsed below the scale $\rho$ if for any metric ball $B(x, r)$ with $r<\rho$ satisfying $|R(y)|\leq r^{-2}$ for all $y \in B(x, r)$, we have
 $$
 \frac{\operatorname{Vol} B(x, r)}{r^n} \geq \kappa
 $$
