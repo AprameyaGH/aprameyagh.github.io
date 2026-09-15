@@ -6,7 +6,6 @@ markdown: kramdown
 
 kramdown:
   parse_block_html: true
-  math_engine: null
 
 collections:
   expository_posts:
@@ -17,4 +16,3 @@ collections:
     output: true
     permalink: /stuff/:name/
 
-    
