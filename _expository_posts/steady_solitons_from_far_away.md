@@ -68,9 +68,11 @@ This is a good place to define what is noncollapsed-ness in the question stateme
 
 <div class="definition" id="theorem-5">
 ([Perelman](https://arxiv.org/abs/math/0211159)) Let $\left(\hat{\mathcal{M}}^n, \hat{g}\right)$ be a complete Riemannian manifold. Given $\rho \in(0, \infty]$ and $\kappa>0$, we say that the metric $\hat{g}$ is $\kappa$-noncollapsed below the scale $\rho$ if for any metric ball $B(x, r)$ with $r<\rho$ satisfying $|R(y)|\leq r^{-2}$ for all $y \in B(x, r)$, we have
+<div class="math-display" markdown="0">
 $$
 \frac{\operatorname{Vol} B(x, r)}{r^n} \geq \kappa
 $$
+</div>
 By $\kappa$-noncollapsed, we mean $\kappa$-noncollapsed below the scale of $\rho$ for any $\rho>0$. 
 
 </div>
@@ -103,8 +105,10 @@ Moving on to dimension 3, R. Bryant constructed a complete nonflat noncompact ro
 
 Consider the ansatz $\tilde g=dr^2+w(r)^2g_{S^2}$ and radial $f(r)$ on $\mathbb{R}^3$. We put the following conditions on $(\tilde g,f)$: $(M,\tilde g,f)$ is a complete steady soliton. The steady soliton equation then gives the following nonlinear system in $(w,f)$ 
 \begin{equation}
-\begin{cases}f^{\prime \prime} & =2 w^{\prime \prime} / w \\ 
-w w^{\prime} f^{\prime}& =w w^{\prime \prime}+\left(\left(w^{\prime}\right)^2-1\right).\end{cases}
+\begin{aligned}
+f^{\prime \prime} & =2 w^{\prime \prime} / w \\ 
+w w^{\prime} f^{\prime} & =w w^{\prime \prime}+\left(\left(w^{\prime}\right)^2-1\right).
+\end{aligned}
 \end{equation}
 This ODE system is invariant under $r\mapsto r+$const and $f\mapsto f+$const. One can simplify this a lot further. Studying this system using ODE techniques (such as [linearization](https://arxiv.org/abs/math/0111178)), Bryant showed that the solution $(w,f)$ is exists and is unique. Using ODE expansions, we can get the behavior of $w$, $f$, but it is still unknown (and unlikely) if there is an exact form for $w,f$. This method actually works in all dimensions gives us a steady soliton $\operatorname{Bry}^n$ and its properties are summarized below. 
 
