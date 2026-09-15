@@ -169,7 +169,8 @@ in the [Gromov Hausdorff sense](https://arxiv.org/abs/2012.00756) where $(X,d_X)
 
 </div>
 
-These results are in complete contrast to Bryant soliton and the cigar soliton! One can compute using the asymptotic cylindricity that the asymptotic cone of $\operatorname{Bry}^n$ is a ray $\mathbb{R}_+:=\{x|x\geq 0\}$. The name flying wing comes because these solitons have a sector as their asymptotic cone. Moreover, there is now a real possibility that given a general steady soliton, the scalar curvature need not actually vanish at infinity! This is why the question I mentioned in the beginning of the talk makes sense: is it even possible that the scalar curvature doesn't vanish in 4D noncollapsed setting? The precise formulation of the question I started in the beginning of the talk is the following conjecture due to Yi Lai. 
+These results are in complete contrast to Bryant soliton and the cigar soliton! One can compute using the asymptotic cylindricity that the asymptotic cone of 
+$\operatorname{Bry}^n$ is a ray $\mathbb{R}_+:=\{x|x\geq 0\}$. The name flying wing comes because these solitons have a sector as their asymptotic cone. Moreover, there is now a real possibility that given a general steady soliton, the scalar curvature need not actually vanish at infinity! This is why the question I mentioned in the beginning of the talk makes sense: is it even possible that the scalar curvature doesn't vanish in 4D noncollapsed setting? The precise formulation of the question I started in the beginning of the talk is the following conjecture due to Yi Lai. 
 
 **Conjecture.** ([Lai](https://sites.uci.edu/yilai/files/2025/07/Oberwolfach_report_2023-1.pdf)) The only non-collapsed steady gradient solitons with non-negative curvature operator are the 4D Bryant soliton, and the family of $\mathbb{Z}_2 \times O(3)$-symmetric solitons constructed by Lai. Moreover, the blow-down of each of the $\mathbb{Z}_2 \times O(3)$ -symmetric soliton is a ray.
 
