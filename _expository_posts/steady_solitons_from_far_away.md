@@ -223,7 +223,7 @@ in the <a href="https://arxiv.org/abs/2012.00756">Gromov Hausdorff sense</a> whe
 </div>
 
 These results are in complete contrast to Bryant soliton and the cigar soliton! One can compute using the asymptotic cylindricity that the asymptotic cone of 
-$\operatorname{Bry}^n$ is a ray $\mathbb{R}_+:=\{x|x\geq 0\}$. The name flying wing comes because these solitons have a sector as their asymptotic cone. Moreover, there is now a real possibility that given a general steady soliton, the scalar curvature need not actually vanish at infinity! This is why the question I mentioned in the beginning of the talk makes sense: is it even possible that the scalar curvature doesn't vanish in 4D noncollapsed setting? The precise formulation of the question I started in the beginning of the talk is the following conjecture due to Yi Lai. 
+$\operatorname{Bry}^n$ is a ray $\mathbb{R}_+:=\lbrace x|x\geq 0\rbrace $. The name flying wing comes because these solitons have a sector as their asymptotic cone. Moreover, there is now a real possibility that given a general steady soliton, the scalar curvature need not actually vanish at infinity! This is why the question I mentioned in the beginning of the talk makes sense: is it even possible that the scalar curvature doesn't vanish in 4D noncollapsed setting? The precise formulation of the question I started in the beginning of the talk is the following conjecture due to Yi Lai. 
 
 **Conjecture.** ([Lai](https://sites.uci.edu/yilai/files/2025/07/Oberwolfach_report_2023-1.pdf)) The only non-collapsed steady gradient solitons with non-negative curvature operator are the 4D Bryant soliton, and the family of $\mathbb{Z}_2 \times O(3)$-symmetric solitons constructed by Lai. Moreover, the blow-down of each of the $\mathbb{Z}_2 \times O(3)$ -symmetric soliton is a ray.
 
@@ -289,7 +289,9 @@ $$
 \Sigma_s:=f^{-1}(s)\qquad \text{ for }s<f(o),
 $$
 </div>
-each of which is compact and diffeomorphic to $\mathbb{S}^3$ so that $M$ is diffeomorphic to $\mathbb{R}^4$. Fix $s_0<f(o)$ and let $\Sigma:=\left\{f=s_0\right\}$. In order to study the problem of scalar curvature at infinity, we define the function $G:\Sigma\to [0,1)$ given by 
+each of which is compact and diffeomorphic to $\mathbb{S}^3$ so that $M$ is diffeomorphic to $\mathbb{R}^4$. 
+Fix $s_0<f(o)$ and let $\Sigma:=\lbrace f=s_0\rbrace$. In order to study the problem of scalar curvature at infinity, we define the function $G:\Sigma\to [0,1)$ given by 
+
 <div class="math-display" markdown="0">
 $$
 G(q):=\lim_{t\to -\infty}R(\Phi_tq)
@@ -337,10 +339,10 @@ In this case, $f-f(x_i)\to f_\infty$ and the limit satisfies $\operatorname{Ric}
 Moreover, $f_\infty=Az+h$, where $h$ is a soliton potential for the Bryant. 
 <div class="math-display" markdown="0">
 $$
- \left(\Sigma_{f(x_i)}, g,x_i\right) \to \mathcal{S}_h:=\{(w,z)\mid Az+h(w)=0\}\subset \operatorname{Bry}^3\times \mathbb{R}.
+ \left(\Sigma_{f(x_i)}, g,x_i\right) \to \mathcal{S}_h:=\lbrace (w,z)\mid Az+h(w)=0\rbrace \subset \operatorname{Bry}^3\times \mathbb{R}.
 $$
 </div>
-Suppose additionally that $x_i$ lying in a single integral curve $\{\Phi_tq:t\leq 0\}$. Since 
+Suppose additionally that $x_i$ lying in a single integral curve $\lbrace \Phi_tq:t\leq 0\rbrace $. Since 
 <div class="math-display" markdown="0">
 $$
 \frac{d}{dt}R(\Phi_tp)=\nabla R\cdot \nabla f|_{\Phi_t p}=2\operatorname{Ric}(\nabla f,\nabla f)|_{\Phi_t p}
@@ -349,7 +351,7 @@ $$
 This shows that $\operatorname{Ric}(\nabla f,\nabla f)|_{\Phi_t p}\to 0$ thereby implying that the limit of $x_i$ satifies $\nabla h=0$. 
 
 <div class="definition" id="theorem-18">
-Let us call a point $x\in M$ is called a tip if $\bar \nabla R(x)=0$ and $\frac{\lambda_2}{R}(x)>\frac{1}{6}$. The above computation shows that if the scalar curvature doesn't vanish at infinity on the  $\{\Phi_tq:t\leq 0\}$, then there exists tips very close to these integral curves. 
+Let us call a point $x\in M$ is called a tip if $\bar \nabla R(x)=0$ and $\frac{\lambda_2}{R}(x)>\frac{1}{6}$. The above computation shows that if the scalar curvature doesn't vanish at infinity on the  $\lbrace \Phi_tq:t\leq 0\rbrace $, then there exists tips very close to these integral curves. 
 
 </div>
 
@@ -400,7 +402,7 @@ Note that in the final integral, all the terms are really small. This shows the 
 
 <div class="theorem" id="theorem-22">
 (Description of tip and edge regions) There exists two distinct points $x_+,x_-\in \Sigma:=\Sigma_{s_0}$ such that the integral curves $\Phi_{-t}x_\pm$ track the two tips along level sets. 
-Given any $t_k\to -\infty$, we have that $(M,R(\Phi_{-t_k}(x_\pm))g,\Phi_{-t_k}(x_\pm))$ converges to $\operatorname{Bry}^3\times \mathbb{R}$ with basepoint at the tip. Moreover, $G\equiv 0$ on $\Sigma\setminus \{x_+,x_-\}$. 
+Given any $t_k\to -\infty$, we have that $(M,R(\Phi_{-t_k}(x_\pm))g,\Phi_{-t_k}(x_\pm))$ converges to $\operatorname{Bry}^3\times \mathbb{R}$ with basepoint at the tip. Moreover, $G\equiv 0$ on $\Sigma\setminus \lbrace x_+,x_-\rbrace $. 
 
 </div>
 
