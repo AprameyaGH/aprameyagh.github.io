@@ -8,7 +8,8 @@ permalink: /expository/
 
 Here you can find some of my writings which are more expository in nature, or updates about my research ...
 
-{% for post in site.expository_posts %}
+{% assign sorted_posts = site.expository_posts | sort: "date" | reverse %}
+{% for post in sorted_posts %}
 <article>
   <h2>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
