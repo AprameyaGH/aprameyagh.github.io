@@ -127,12 +127,11 @@ Continuing with our story, one can show the following:
 Moving on to dimension 3, R. Bryant constructed a complete nonflat noncompact rotationally symmetric steady soliton, which are now called the Bryant soliton, as follows. 
 
 Consider the ansatz $\tilde g=dr^2+w(r)^2g_{S^2}$ and radial $f(r)$ on $\mathbb{R}^3$. We put the following conditions on $(\tilde g,f)$: $(M,\tilde g,f)$ is a complete steady soliton. The steady soliton equation then gives the following nonlinear system in $(w,f)$ 
-\begin{equation}
-\begin{aligned}
-f^{\prime \prime} & =2 w^{\prime \prime} / w \\ 
-w w^{\prime} f^{\prime} & =w w^{\prime \prime}+\left(\left(w^{\prime}\right)^2-1\right).
-\end{aligned}
-\end{equation}
+<div class="math-display" markdown="0">
+$$
+f^{\prime \prime} & =2 w^{\prime \prime} / w \qquad w w^{\prime} f^{\prime} & =w w^{\prime \prime}+\left(\left(w^{\prime}\right)^2-1\right).
+$$
+</div>
 This ODE system is invariant under $r\mapsto r+$const and $f\mapsto f+$const. One can simplify this a lot further. Studying this system using ODE techniques (such as [linearization](https://arxiv.org/abs/math/0111178)), Bryant showed that the solution $(w,f)$ is exists and is unique. Using ODE expansions, we can get the behavior of $w$, $f$, but it is still unknown (and unlikely) if there is an exact form for $w,f$. This method actually works in all dimensions gives us a steady soliton $\operatorname{Bry}^n$ and its properties are summarized below. 
 
 <div class="theorem" id="theorem-8">
@@ -208,20 +207,21 @@ Yi Lai solved the problem of understanding the geometry of these flying wings co
 
 <div class="theorem" id="theorem-13">
 (<a href="https://arxiv.org/abs/2205.01146">Lai '22</a>) Let $(M^3,g,f)$ be any 3D steady soliton with nonnegative curvature operator that is NOT the Bryant soliton. Then,
-- $M$ is collapsed. 
-- The asymptotic limits are the Cigar soliton and $S^1\times \mathbb{R}$.
-- The <a href="https://arxiv.org/abs/2207.02714">asymptotic cone</a> of $M$ is a 2D sector. More precisely, if $r_k\to 0$, 
+<ul>
+  <li>$M$ is collapsed. </li>
+  <li>The asymptotic limits are the Cigar soliton and $S^1\times \mathbb{R}$.</li>
+  <li> The <a href="https://arxiv.org/abs/2207.02714">asymptotic cone</a> of $M$ is a 2D sector. More precisely, if $r_k\to 0$, 
 <div class="math-display" markdown="0">
 $$
 (M,r_kg,o)\to (X,d_X,x)
 $$
 </div>
-in the <a href="https://arxiv.org/abs/2012.00756">Gromov Hausdorff sense</a> where $(X,d_X)$ is a metric space given by the sector of angle $\alpha\in (0,\pi)$ in the Euclidean plane. 
-- There are two edges $\Gamma_1,\Gamma_2$ such that along these edges, the scalar curvature converges to a positive limit depending on $\alpha$. 
-- $M$ is $O(2)$-symmetric. 
+in the <a href="https://arxiv.org/abs/2012.00756">Gromov Hausdorff sense</a> where $(X,d_X)$ is a metric space given by the sector of angle $\alpha\in (0,\pi)$ in the Euclidean plane. </li>
+    <li> There are two edges $\Gamma_1,\Gamma_2$ such that along these edges, the scalar curvature converges to a positive limit depending on $\alpha$.  </li>
+    <li> $M$ is $O(2)$-symmetric. </li>
+</ul>
 
 </div>
-
 These results are in complete contrast to Bryant soliton and the cigar soliton! One can compute using the asymptotic cylindricity that the asymptotic cone of 
 $\operatorname{Bry}^n$ is a ray $\mathbb{R}_+:=\lbrace x|x\geq 0\rbrace $. The name flying wing comes because these solitons have a sector as their asymptotic cone. Moreover, there is now a real possibility that given a general steady soliton, the scalar curvature need not actually vanish at infinity! This is why the question I mentioned in the beginning of the talk makes sense: is it even possible that the scalar curvature doesn't vanish in 4D noncollapsed setting? The precise formulation of the question I started in the beginning of the talk is the following conjecture due to Yi Lai. 
 
@@ -304,7 +304,7 @@ $$
 </div>
 It is unknown whether $R(x)\to 0$. Now, let us mention the main results of this talk, which is due to Natasa Sesum and myself. The first theorem shows that away from two curves, the scalar curvature decays to zero atleast linearly. 
 <div class="theorem" id="theorem-24">
-(Main Theorem - I: N. Sesum-AGH) There exists $C>0$ and two curves $\Gamma_1,\Gamma_2$ starting at $o$ and going off to infinity such that rescaling along these curves gives $\operatorname{Bry}^3\times \mathbb{R}$ with the basepoint at the tip and setting $\Gamma=\Gamma_1\cup \Gamma_2$, we have 
+(Main Theorem - I, N. Sesum-AGH) There exists $C>0$ and two curves $\Gamma_1,\Gamma_2$ starting at $o$ and going off to infinity such that rescaling along these curves gives $\operatorname{Bry}^3\times \mathbb{R}$ with the basepoint at the tip and setting $\Gamma=\Gamma_1\cup \Gamma_2$, we have 
 <div class="math-display" markdown="0">
 $$
 R(x)d(x,\Gamma)\leq C\qquad \text{ for all }x\in M.
@@ -335,7 +335,7 @@ We observe that the conclusion that the asymptotic cone of $(M, g)$ is a ray imp
 
 Before proceeding to the idea behind the proof, let us mention one more result concerning the behavior of scalar curvature. 
 
-Recall that $\Phi_t$ is the flow of $\nabla f$ with $\Phi_0=\operatorname{id}_M$ and $g(t):=\Phi_t^* g$ is the canonical Ricci flow. Given $p\in M,p\neq o$, $p\mapsto \Phi_{-t}p$, as $t\geq 0$, is in the direction of $-\nabla f$, on which $f$ decreases to $-\infty$, as $t\to -\infty$. Thus as you move forward in time, the point $p$ goes nearer to $o$. 
+Recall that $\Phi_t$ is the flow of $\nabla f$ with $\Phi_0=id_M$ and $g(t):=\Phi_t^* g$ is the canonical Ricci flow. Given $p\in M,p\neq o$, $p\mapsto \Phi_{-t}p$, as $t\geq 0$, is in the direction of $-\nabla f$, on which $f$ decreases to $-\infty$, as $t\to -\infty$. Thus as you move forward in time, the point $p$ goes nearer to $o$. 
 
 Define the function $G:\Sigma\to [0,1)$ given by 
 <div class="math-display" markdown="0">
@@ -387,8 +387,8 @@ implying that the limit of $x_i$ satifies $\nabla h=0$.
 <div class="definition" id="theorem-18">
 Let us call a point $x\in M$ is called a tip if $\bar \nabla R(x)=0$ and $\frac{\lambda_2}{R}(x)>\frac{1}{6}$. The above computation shows that if the scalar curvature doesn't vanish at infinity on the  $\lbrace \Phi_tq:t\leq 0\rbrace $, then there exists tips very close to these integral curves. 
 </div>
-Using all these ideas, we show that for all $s\ll 0$, $\Sigma_s$ consists of <a href="https://arxiv.org/abs/1911.00091">two Bryant caps and a neck joining them</a>. 
-The proof uses a technique due to [Brendle--Dasksalopolous--Sesum](https://arxiv.org/abs/2002.12240). 
+Using all these ideas, we show that for all $s\ll 0$, $\Sigma_s$ consists of <a href="https://arxiv.org/abs/1911.00091"> two Bryant caps and a neck joining them</a>. 
+The proof uses a technique due to <a href="https://arxiv.org/abs/2002.12240">Brendle--Dasksalopolous--Sesum</a>. 
 
 One of the main questions that arise here is how the model spaces $\operatorname{Bry}^3\times \mathbb{R}$ and $S^2\times \mathbb{R}^2$ are approximately arranged within the manifold. In order to go towards that, we show the following theorem. 
 
@@ -410,7 +410,9 @@ $$
 </div>
 and 
 <div class="math-display" markdown="0">
+$$
 \lim_{s\to \infty}s\cdot R(\Phi_{-s}(q))=1.
+$$
 </div>
 </div>
 Due to lack of time, we shall only illustrate the key idea in the third assertion. It comes from the following identity: 
@@ -420,8 +422,6 @@ $$
 $$
 </div>
 Note that in the right hand side, all the terms in the integrand are small when $M$ is close to a bubble sheet after rescaling. This shows that the quantity $R+\frac{1}{f}$ is almost constant along the integral curves under consideration. 
-
-We next 
 <div class="theorem" id="theorem-22">
 (Description of tip and edge regions) There exists two distinct points $x_+,x_-\in \Sigma:=\Sigma_{s_0}$ such that the integral curves $\Phi_{-t}x_\pm$ track the two tips along level sets. 
 Given any $t_k\to -\infty$, we have that $(M,R(\Phi_{-t_k}(x_\pm))g,\Phi_{-t_k}(x_\pm))$ converges to $\operatorname{Bry}^3\times \mathbb{R}$ with basepoint at the tip. Moreover, $G\equiv 0$ on $\Sigma\setminus \lbrace x_+,x_-\rbrace $. 
@@ -438,7 +438,7 @@ and call $\Gamma_1$ and $\Gamma_2$ the edges of the soliton .
 
 The key idea in proving Main Theorem - I is as follows. Fix $p$ and let us consider two integral curves: $\Phi_{-t} p$ and $\Phi_{-t} x_+$. 
 Suppose that rescaling around $p$ gives us the bubble sheet.
-Then, the [first variation of distance](https://arxiv.org/abs/2008.00073) shows that 
+Then, the <a href="https://arxiv.org/abs/2008.00073">first variation of distance</a> shows that 
 <div class="math-display" markdown="0">
 $$
 \partial_s^{+} d_g\left(\Phi_{-s}(p), \Phi_{-s}(x_+)\right) \leq C \max \left(\sqrt{R_g\left(\Phi_{-s}(p)\right)}, \sqrt{R_g\left(\Phi_{-s}(x_+)\right)}\right)
@@ -478,7 +478,7 @@ $$
 </div>
 This shows that the  asymptotic cone of $(M, g)$ is a ray.
 
-The opposite consequence is actually more general and holds in any dimensions. In the paper, we consider the following angle function $\alpha:T_o M\to \R$ given by 
+The opposite consequence is actually more general and holds in any dimensions. In the paper, we consider the following angle function $\alpha:T_o M\to \mathbb{R}$ given by 
 <div class="math-display" markdown="0">
 $$
 \alpha (v):=\lim_{r\to \infty}\frac{f(o)-f(\gamma_v(r))}{r}
