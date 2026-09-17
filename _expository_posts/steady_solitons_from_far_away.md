@@ -1,8 +1,8 @@
---
+---
 layout: post
 title: "How do steady solitons look from far away? "
 date: 2026-09-15
---
+---
 
 These are my notes for my talk at Rutgers University Geometric Analysis seminar, Sept 15, Fall 2026. 
 
@@ -129,7 +129,7 @@ Moving on to dimension 3, R. Bryant constructed a complete nonflat noncompact ro
 Consider the ansatz $\tilde g=dr^2+w(r)^2g_{S^2}$ and radial $f(r)$ on $\mathbb{R}^3$. We put the following conditions on $(\tilde g,f)$: $(M,\tilde g,f)$ is a complete steady soliton. The steady soliton equation then gives the following nonlinear system in $(w,f)$ 
 <div class="math-display" markdown="0">
 $$
-f^{\prime \prime} & =2 w^{\prime \prime} / w \qquad\qquad w w^{\prime} f^{\prime} =w w^{\prime \prime}+\left(\left(w^{\prime}\right)^2-1\right).
+f^{\prime \prime} & =2 w^{\prime \prime} / w \qquad w w^{\prime} f^{\prime} & =w w^{\prime \prime}+\left(\left(w^{\prime}\right)^2-1\right).
 $$
 </div>
 This ODE system is invariant under $r\mapsto r+$const and $f\mapsto f+$const. One can simplify this a lot further. Studying this system using ODE techniques (such as [linearization](https://arxiv.org/abs/math/0111178)), Bryant showed that the solution $(w,f)$ is exists and is unique. Using ODE expansions, we can get the behavior of $w$, $f$, but it is still unknown (and unlikely) if there is an exact form for $w,f$. This method actually works in all dimensions gives us a steady soliton $\operatorname{Bry}^n$ and its properties are summarized below. 
@@ -209,7 +209,7 @@ Yi Lai solved the problem of understanding the geometry of these flying wings co
 (<a href="https://arxiv.org/abs/2205.01146">Lai '22</a>) Let $(M^3,g,f)$ be any 3D steady soliton with nonnegative curvature operator that is NOT the Bryant soliton. Then,
 <ul>
   <li>$M$ is collapsed. </li>
-  <li> The asymptotic limits are the Cigar soliton and $S^1\times \mathbb{R}$.</li>
+  <li>The asymptotic limits are the Cigar soliton and $S^1\times \mathbb{R}$.</li>
   <li> The <a href="https://arxiv.org/abs/2207.02714">asymptotic cone</a> of $M$ is a 2D sector. More precisely, if $r_k\to 0$, 
 <div class="math-display" markdown="0">
 $$
@@ -218,6 +218,7 @@ $$
 </div>
 in the <a href="https://arxiv.org/abs/2012.00756">Gromov Hausdorff sense</a> where $(X,d_X)$ is a metric space given by the sector of angle $\alpha\in (0,\pi)$ in the Euclidean plane. </li>
     <li> There are two edges $\Gamma_1,\Gamma_2$ such that along these edges, the scalar curvature converges to a positive limit depending on $\alpha$.  </li>
+    <li> $M$ is $O(2)$-symmetric. </li>
 </ul>
 
 </div>
@@ -229,21 +230,21 @@ $\operatorname{Bry}^n$ is a ray $\mathbb{R}_+:=\lbrace x|x\geq 0\rbrace $. The n
 If I had to guess why this conjecture could be true, I would say: maybe that the kind of behavior non-Bryant 3D steady solitons are showing is because they are collapsed? And moreover, its dimension 3, which means that the flat limits such as $S^1\times \mathbb{R}$ may arise. A similar phenomenon has been established by [Haslhofer in the mean curvature flow](https://arxiv.org/abs/2105.13100) where certain wing-like structure can never occur. 
 
 If one removes either nonnegative curvature operator or the noncollapsed assumptions, then the class of $4$D steady solitons is wild! It feels like there is really no end to the possible structures that exist. I will very briefly describe the solitons I am aware of here. 
-- [Cao's](https://arxiv.org/abs/1203.4794) $U(2)$-invariant steady [K\"ahler](https://arxiv.org/abs/math/0402223)-Ricci soliton on $\mathbb{C}^2$ ;
-- the Koiso-type steady K\"ahler-Ricci solitons of [Yang](https://arxiv.org/abs/0802.0300) ;
-- the non-K\"ahler steady solitons of [Buzano-Dancer-Wang](https://arxiv.org/abs/1309.6140) ;
+- [Cao's](https://arxiv.org/abs/1203.4794) $U(2)$-invariant steady [K\"ahler](https://arxiv.org/abs/math/0402223)--Ricci soliton on $\mathbb{C}^2$ ;
+- the Koiso-type steady K\"ahler--Ricci solitons of [Yang](https://arxiv.org/abs/0802.0300) ;
+- the non-K\"ahler steady solitons of [Buzano--Dancer--Wang](https://arxiv.org/abs/1309.6140) ;
 - the product of Lai's three-dimensional flying wing  with a line;
-- the steady K\"ahler-Ricci solitons of [Biquard-Macbeth](https://arxiv.org/abs/1711.02019)  on crepant resolutions of finite quotients of $\mathbb{C}^2$;
-- the $U(1)\times U(1)$-invariant steady K\"ahler-Ricci solitons on $\mathbb{C}^2$ of [Apostolov-Cifarelli](https://arxiv.org/abs/2305.15626) ;
-- the steady K\"ahler-Ricci solitons of [Conlon-Deruelle](https://arxiv.org/abs/2006.03100) ;
-the $U(1)\times U(1)$-invariant K\"ahler flying wings of [Chan-Conlon-Lai](https://arxiv.org/abs/2403.04089) ;
-- the $\mathbb{Z}_2^2\times O(2)$- and $O(2)\times O(2)$-symmetric flying wing constructions of [Chan-Lai-Lee](https://arxiv.org/abs/2510.23005)  and [Lavoyer-Peachey](https://arxiv.org/abs/2509.25081) ; 
+- the steady K\"ahler--Ricci solitons of [Biquard--Macbeth](https://arxiv.org/abs/1711.02019)  on crepant resolutions of finite quotients of $\mathbb{C}^2$;
+- the $U(1)\times U(1)$-invariant steady K\"ahler--Ricci solitons on $\mathbb{C}^2$ of [Apostolov--Cifarelli](https://arxiv.org/abs/2305.15626) ;
+- the steady K\"ahler--Ricci solitons of [Conlon--Deruelle](https://arxiv.org/abs/2006.03100) ;
+the $U(1)\times U(1)$-invariant K\"ahler flying wings of [Chan--Conlon--Lai](https://arxiv.org/abs/2403.04089) ;
+- the $\mathbb{Z}_2^2\times O(2)$- and $O(2)\times O(2)$-symmetric flying wing constructions of [Chan--Lai--Lee](https://arxiv.org/abs/2510.23005)  and [Lavoyer--Peachey](https://arxiv.org/abs/2509.25081) ; 
 - $\mathbb{R}^2\times \mathbb{S}^2$ of [Ivey](https://doi.org/10.1090/S0002-9939-1994-1207538-5) ; 
-- [Dancer-Wang](https://arxiv.org/abs/0806.4408)  which are $\kappa$-noncollapsed; 
+- [Dancer--Wang](https://arxiv.org/abs/0806.4408)  which are $\kappa$-noncollapsed; 
 - [Appleton's](https://arxiv.org/abs/1708.00161) $\kappa$-noncollapsed steady soliton ;
 - [Sch\"afer's](https://arxiv.org/abs/2103.12629) asymptotically cylindrical steady solitons ; 
 - [Stolarski's](https://arxiv.org/abs/1511.04087) $U(1)$-invariant steady solitons on complex line bundles over $\mathbb{C}\mathbb{P}^1$ ; 
-- [Sch\"afer's](https://arxiv.org/abs/2001.09858) $\mathbb{S}^1$-invariant steady K\"ahler-Ricci solitons . 
+- [Sch\"afer's](https://arxiv.org/abs/2001.09858) $\mathbb{S}^1$-invariant steady K\"ahler--Ricci solitons . 
 
 
 # Need for classification
@@ -286,7 +287,7 @@ $$
 each of which is compact and diffeomorphic to $\mathbb{S}^3$ so that $M$ is diffeomorphic to $\mathbb{R}^4$. 
 Fix $s_0<f(o)$ and let $\Sigma:=\lbrace f=s_0\rbrace$. 
 
-<div class="lemma" id="theorem-16"> (<a href="https://arxiv.org/abs/2310.14020">Chan-Ma-Zhang,'23</a>) Assume (A1)-(A4). Consider any sequence $x_i\in M$ with $d(x_i,o)\to \infty$. By passing to a subsequence, 
+<div class="lemma" id="theorem-16"> (<a href="https://arxiv.org/abs/2310.14020">Chan--Ma--Zhang,'23</a>) Assume (A1)-(A4). Consider any sequence $x_i\in M$ with $d(x_i,o)\to \infty$. By passing to a subsequence, 
 <div class="math-display" markdown="0">
 $$
  \left(M^4,R(x_i) g,x_i\right) \to \operatorname{Bry}^3\times \mathbb{R}\text{ or }S^2 \times R^2,
@@ -348,12 +349,12 @@ $$
 
 Let us now briefly explain how these conclusions are proved and what the proof shows about the structure of manifold. 
 
-In order to make Cheeger-Gromov convergence, we consider the concept of closeness to cylinder.
+In order to make Cheeger--Gromov convergence, we consider the concept of closeness to cylinder.
 <div class="definition" id="theorem-17">
  Say $x$ is an $\epsilon$-center if $(M,R(x)g,x)$ is $\epsilon$-close in the $C^{[\epsilon^{-1}]}$-norm to $S^2 \times \mathbb{R}^2$ on a ball of radius $\epsilon^{-1}$. 
 </div>
 
-Recall that due to the work of Chan-Ma-Zhang, whenever $d(x_i,o)\to \infty$, by passing to a subsequence, we have 
+Recall that due to the work of Chan--Ma--Zhang, whenever $d(x_i,o)\to \infty$, by passing to a subsequence, we have 
 <div class="math-display" markdown="0">
 $$
  \left(M^4,R(x_i) g,x_i\right) \to \operatorname{Bry}^3\times \mathbb{R}\text{ or }S^2 \times R^2,
@@ -387,21 +388,21 @@ implying that the limit of $x_i$ satifies $\nabla h=0$.
 Let us call a point $x\in M$ is called a tip if $\bar \nabla R(x)=0$ and $\frac{\lambda_2}{R}(x)>\frac{1}{6}$. The above computation shows that if the scalar curvature doesn't vanish at infinity on the  $\lbrace \Phi_tq:t\leq 0\rbrace $, then there exists tips very close to these integral curves. 
 </div>
 Using all these ideas, we show that for all $s\ll 0$, $\Sigma_s$ consists of <a href="https://arxiv.org/abs/1911.00091"> two Bryant caps and a neck joining them</a>. 
-The proof uses a technique due to <a href="https://arxiv.org/abs/2002.12240">Brendle-Dasksalopolous-Sesum</a>. 
+The proof uses a technique due to <a href="https://arxiv.org/abs/2002.12240">Brendle--Dasksalopolous--Sesum</a>. 
 
 One of the main questions that arise here is how the model spaces $\operatorname{Bry}^3\times \mathbb{R}$ and $S^2\times \mathbb{R}^2$ are approximately arranged within the manifold. In order to go towards that, we show the following theorem. 
 
 <div class="theorem" id="theorem-20">
+
 (Description of Bubble sheet regions) 
-<ul>
-  <li>(bubble sheet persistence) For each $\varepsilon>0$, there exists $\delta_\varepsilon\in (0,\varepsilon)$, $N_\varepsilon>0$ such that if $x\in M$ is a $(\delta_\varepsilon,2)$-center with $d(x,o)>N_\varepsilon$, then $\Phi_{t}(x)$ is an $(\varepsilon,2)$-center for all $t\leq 0$. </li>
-  <li>(bubble sheet improvement) If $\varepsilon\leq \varepsilon_*$ is small enough, 
+- (bubble sheet persistence) For each $\varepsilon>0$, there exists $\delta_\varepsilon\in (0,\varepsilon)$, $N_\varepsilon>0$ such that if $x\in M$ is a $(\delta_\varepsilon,2)$-center with $d(x,o)>N_\varepsilon$, then $\Phi_{t}(x)$ is an $(\varepsilon,2)$-center for all $t\leq 0$. 
+- (bubble sheet improvement) If $\varepsilon\leq \varepsilon_*$ is small enough, 
 <div class="math-display" markdown="0">
 $$
 (M,R(\Phi_{t_k}(q))g,\Phi_{t_k}(q))\to S^2 \times \mathbb{R}^2
 $$
-</div></li>
-  <li>(behavior of scalar curvature) Moreover, for all $t>0$, 
+</div>
+- (behavior of scalar curvature) Moreover, for all $t>0$, 
 <div class="math-display" markdown="0">
 $$
 R(\Phi_{-t}(q))\leq \frac{C}{t},
@@ -413,8 +414,6 @@ $$
 \lim_{s\to \infty}s\cdot R(\Phi_{-s}(q))=1.
 $$
 </div>
-</li>
-</ul>
 </div>
 Due to lack of time, we shall only illustrate the key idea in the third assertion. It comes from the following identity: 
 <div class="math-display" markdown="0">
@@ -438,7 +437,6 @@ and call $\Gamma_1$ and $\Gamma_2$ the edges of the soliton .
 </div>
 
 The key idea in proving Main Theorem - I is as follows. Fix $p$ and let us consider two integral curves: $\Phi_{-t} p$ and $\Phi_{-t} x_+$. 
-
 Suppose that rescaling around $p$ gives us the bubble sheet.
 Then, the <a href="https://arxiv.org/abs/2008.00073">first variation of distance</a> shows that 
 <div class="math-display" markdown="0">
