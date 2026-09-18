@@ -3,9 +3,9 @@ layout: post
 title: "The Li-Yau-Hamilton Harnack inequality"
 date: 2026-09-10
 ---
-The Harnack inequality, in its classical form, provides a way to compare the values of the positive solution at different points. In their 1986 seminal paper, Peter Li and Shing-Tung Yau introduced a revolutionary differential form of the Harnack inequality for the heat equation on Riemannian manifolds, now known as the Li-Yau Harnack inequality.
+The Harnack inequality, in its classical form, provides a way to compare the values of the positive solution at different points. 
 
-This differential inequality is very important in geometric analysis and they crop up in Hamilton's analysis of the Ricci flow on surfaces as well. 
+In their 1986 paper, Peter Li and Shing-Tung Yau introduced a revolutionary differential form of the Harnack inequality for the heat equation on Riemannian manifolds, now known as the Li-Yau Harnack inequality. This differential inequality is very important in geometric analysis and they crop up in Hamilton's analysis of the Ricci flow on surfaces as well. 
 
 In this expository article, we explore the Li-Yau Harnack inequality in three increasingly general settings. We begin with the simplest case of closed manifolds, where the absence of boundary terms makes the analysis easy. We then examine the more delicate case of Euclidean domains, where we perform a more careful analysis through cut-off functions. Finally, we extend our investigation to complete noncompact manifolds. A reference for all this is the original paper of Li-Yau. We will mention Hamilton's generalization of Li-Yau Harnack inequality at the end.  
 

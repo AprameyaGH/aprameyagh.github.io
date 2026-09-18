@@ -402,7 +402,7 @@ One of the main questions that arise here is how the model spaces $\operatorname
 (Description of Bubble sheet regions) 
 <ul>
   <li>(bubble sheet persistence) For each $\varepsilon>0$, there exists $\delta_\varepsilon\in (0,\varepsilon)$, $N_\varepsilon>0$ such that if $x\in M$ is a $(\delta_\varepsilon,2)$-center with $d(x,o)>N_\varepsilon$, then $\Phi_{t}(x)$ is an $(\varepsilon,2)$-center for all $t\leq 0$. </li>
-  <li>(bubble sheet improvement) If $\varepsilon\leq \varepsilon_*$ is small enough, 
+  <li>(bubble sheet improvement) If $\varepsilon\leq \varepsilon_*$ is small enough, then for any $t_k\to -\infty$, we have 
 <div class="math-display" markdown="0">
 $$
 (M,R(\Phi_{t_k}(q))g,\Phi_{t_k}(q))\to S^2 \times \mathbb{R}^2
